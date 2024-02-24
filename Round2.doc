@@ -2,9 +2,9 @@ PROJECT:
 BCI-Enabled Voice Synthesizer for Mute Individuals
 
 1. Final Implementation:
-	The final implementation of this project will be a brain-computer interface (BCI) integrated with a voice synthesizer system, specifically designed to assist mute individuals in communicating verbally. 
-	The system will consist of EEG electrodes for capturing brain signals, signal processing algorithms to interpret these signals, and a voice synthesis module to generate speech output. Users will be able 
-	to communicate by simply imagining speaking, with their brain signals translated into synthesized speech in real-time.
+	The final implementation of this project will be a Non-invasive brain-computer interface (BCI) wearable integrated with a voice synthesizer system, specifically designed to assist mute individuals in 
+	communicating verbally. The system will consist of EEG electrodes for capturing brain signals, signal processing algorithms to interpret these signals, and a voice synthesis module to generate speech output. 
+	Users can communicate by simply imagining speaking, with their brain signals translated into synthesized speech in real time. To make the Voice Output more human like we tend to utilise a  
 
 2. Overview of Existing Research/Projects:
 	Research in the field of assistive technology has explored various approaches to enable communication for individuals with speech impairments. BCIs have emerged as a promising avenue, allowing users to 
@@ -12,6 +12,8 @@ BCI-Enabled Voice Synthesizer for Mute Individuals
 	communication systems. However, the development of a BCI-enabled voice synthesizer specifically tailored for mute individuals remains relatively limited.
 
 3. Major Challenges:
+	Machine Learning Training:
+		Acquiring labeled training data for BCI applications can be challenging due to the scarcity of relevant datasets and the need for specialized expertise in neurophysiology and machine learning
 	Signal Decoding Accuracy: 
 		Achieving accurate decoding of intended speech-related brain signals from EEG data poses a significant challenge due to the complex nature of neural activity involved in speech production.
 	Real-Time Processing:  
@@ -22,6 +24,8 @@ BCI-Enabled Voice Synthesizer for Mute Individuals
 		The system must be robust enough to perform reliably in various environments and conditions, considering factors such as electrode placement variability and signal artifacts.
 
 4. Addressing Challenges:
+	ML Training:
+		Collaborate with domain experts in neurophysiology and machine learning to develop custom algorithms and training methodologies optimized for BCI applications.
 	Advanced Signal Processing:
 		Implement sophisticated signal processing techniques, such as machine learning algorithms, to decode neural signals associated with speech production accurately.
 	Optimization for Real-Time Performance: 
