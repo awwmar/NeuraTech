@@ -4,7 +4,9 @@ BCI-Enabled Voice Synthesizer for Mute Individuals
 1. Final Implementation:
 	The final implementation of this project will be a Non-invasive brain-computer interface (BCI) wearable integrated with a voice synthesizer system, specifically designed to assist mute individuals in 
 	communicating verbally. The system will consist of EEG electrodes for capturing brain signals, signal processing algorithms to interpret these signals, and a voice synthesis module to generate speech output. 
-	Users can communicate by simply imagining speaking, with their brain signals translated into synthesized speech in real time. To make the Voice Output more human like we tend to utilise a  
+	Users can communicate by simply imagining speaking, with their brain signals translated into synthesized speech in real time. To make the Voice Output more human like we tend to utilise a Newly formed AI 
+	model,based on LCM(Large Communication Model) as named by us which tokenises various aspects of voice like amplitude, wavelength etc allowing more nuanced and contextually aware interactions between the 
+	users and AI, enhancing the overall experience.
 
 2. Overview of Existing Research/Projects:
 	Research in the field of assistive technology has explored various approaches to enable communication for individuals with speech impairments. BCIs have emerged as a promising avenue, allowing users to 
