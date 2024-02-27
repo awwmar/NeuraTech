@@ -1,1 +1,6 @@
+The submission consist of three files 
+  => one is the required program(pairwise.py)
+  => and the other two are sample sequences to test the program(s1.txt and s2.txt)
 
+Run the program by executing the following command:
+    - python pairwise.py s1.txt s2.txt
